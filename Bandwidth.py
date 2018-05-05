@@ -4,7 +4,7 @@ import socket
 f = open("sniff.pcapng", mode="rb")
 pcap = dpkt.pcapng.Reader(f)
 
-size_sum = 0
+size_sum = 0011
 first = True
 ts_first = 0
 ts_last = 0
